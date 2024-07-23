@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EsqueletoDeApi.DTO\EsqueletoDeApi.DTO.csproj" />
+    <ProjectReference Include="..\EsqueletoDeApi.RepositorioBD\EsqueletoDeApi.RepositorioBD.csproj" />
+    <ProjectReference Include="..\EsqueletoDeApi.Utilidades\EsqueletoDeApi.Utilidades.csproj" />
+    <ProjectReference Include="..\EsqueletoDeApi\EsqueletoDeApi.Model.csproj" />
+  </ItemGroup>
+
+</Project>
